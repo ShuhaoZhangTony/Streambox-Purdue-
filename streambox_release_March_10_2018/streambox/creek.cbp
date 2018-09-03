@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="creek"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wingrep.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-wingrep.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-wingrep.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wingrep.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-wingrep.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-wingrep.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-grep.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-grep.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-grep.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-grep.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-grep.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-grep.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-join.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-join.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-join.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-join.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-join.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-join.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-tweet.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-tweet.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-tweet.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-tweet.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-tweet.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-tweet.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wc.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-wc.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-wc.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wc.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-wc.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-wc.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="creek">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/libcreek.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 creek"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="creek/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/libcreek.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 creek/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-distinct.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-distinct.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-distinct.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-distinct.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-distinct.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-distinct.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-join-2.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-join-2.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-join-2.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-join-2.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test-join-2.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 test-join-2.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="networklatency.bin">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/networklatency.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 networklatency.bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="networklatency.bin/fast">
+				<Option output="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/networklatency.bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_KAGE_GLOBAL_DEBUG_LEVEL=50"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/."/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../CTPL"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../Kaskade"/>
+					<Add directory="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/../tbb/include"/>
+					<Add directory="/ssd/local/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 networklatency.bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/AppliedPTransform.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/BoundedWindow.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/BoundedWindow.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Create.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/DoFn.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Join/Join.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Join/Join.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Join/JoinEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Join/JoinEvaluator1.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/LookAheadPipelineVisitor.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/LookAheadPipelineVisitor.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/GrepMapper.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/GrepMapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/GrepMapperEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/Mapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/SimpleMapper.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/SimpleMapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/SimpleMapperEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WinMapper.cpp">
+			<Option target="test-tweet.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WinMapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WinMapperEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WindowedGrepMapper.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WindowedGrepMapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WindowedGrepMapperEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WordCountMapper.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WordCountMapper.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Mapper/WordCountMapperEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/MinimalContext.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/MinimalProcessContext.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/NopEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/OffsetRangeTracker.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/PaneInfo.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParDo.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParDoCol2.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParDoEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParDoSimpler.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParDoSimplerEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParUpdateCol2.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ParDo/ParUpdateCol2Evaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/PerBundleContext.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Select/Select.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Select/SimpleSelect.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Select/SimpleSelectEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/RecordBitmapBundleSinkEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/RecordBitmapBundleSinkEvaluator1.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/RecordBundleSink.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="test-distinct.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/RecordBundleSinkEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/RecordBundleSinkEvaluatorJD.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/Sink.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/Sink.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/WindowsBundleSink.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Sink/WindowsBundleSinkEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Bounded.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/BoundedCol2Evaulator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/BoundedEvaulator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/NetworkLatencySource.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/NetworkLatencySource.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/NetworkLatencySourceEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Unbounded-tweets.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Unbounded.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Unbounded.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/UnboundedInMemEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/UnboundedInMemEvaluatorBase.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/UnboundedInMemEvaluator_2out.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/UnboundedInMemEvaluator_Join.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/UnboundedPseudoEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Unbounded_Join.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Source/Unbounded_Join.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/StringUtils.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/ValueContainer.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Values.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Values.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/FixedWindowInto.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/FixedWindowInto.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/FixedWindowIntoEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/GlobalWindow.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/SessionWindowInto.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/SessionWindowIntoEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/WinGBK.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/WinGBK.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/Win/WinGBKEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyFrag.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer-netmon.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer-wc-common.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer-wc-recordbundle.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer-wc-winbundle.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducer.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducerEval-netmon.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducerEval-wc-common.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducerEval-wc-recordbundle.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducerEval-wc-winbundle.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinKeyReducer/WinKeyReducerEval.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum-dispatch-eval.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSumBase.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSumBase.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSumEval.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSumTvEval.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_addlong.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_addlong.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_addlong_tvpair.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_addlong_tvpair.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_mergeset.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_mergeset.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_mergevector.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WinSum_mergevector.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WinSum/WindowedSumEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WindowFn.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WindowingStrategy.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/WindowsHolder.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/config.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/DualInputTransformEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/EvaluationBundleContext.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/EvaluationBundleContext.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/ExecutionContext.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Executor.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Pipeline.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Pipeline.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/PipelineRunner.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/PipelineVisitor.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/SingleInputTransformEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/StatefulTransform.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Transform.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/TransformEvaluator.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/TransformTreeNode.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Transforms-multi.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/core/Transforms.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/creek-map.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/creek-types.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/linux-sizes.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/log.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/measure.c">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/measure.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/networklatency.cpp">
+			<Option target="networklatency.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-common.cpp">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-common.h">
+			<Option target="test-wingrep.bin"/>
+			<Option target="test-grep.bin"/>
+			<Option target="test-join.bin"/>
+			<Option target="test-tweet.bin"/>
+			<Option target="creek"/>
+			<Option target="test-distinct.bin"/>
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-distinct.cpp">
+			<Option target="test-distinct.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-grep.cpp">
+			<Option target="test-grep.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-join-2.cpp">
+			<Option target="test-join-2.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-join.cpp">
+			<Option target="test-join.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-tweet.cpp">
+			<Option target="test-tweet.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-wc.cpp">
+			<Option target="test-wc.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/test/test-wingrep.cpp">
+			<Option target="test-wingrep.bin"/>
+		</Unit>
+		<Unit filename="/home/shuhaozhang/Streambox-Purdue-/streambox_release_March_10_2018/streambox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

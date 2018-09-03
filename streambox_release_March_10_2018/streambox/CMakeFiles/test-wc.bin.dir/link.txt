@@ -1,0 +1,1 @@
+g++   -include config.h -fdiagnostics-color=auto -std=c++11 -g -Wall -O2 -DHAVE_NUMA   -pthread -rdynamic CMakeFiles/test-wc.bin.dir/test/test-wc.cpp.o  -o test-wc.bin libcreek.a -lboost_date_time -lboost_system -lboost_thread -lboost_program_options -lnuma -ltbb /usr/local/lib/libfolly.a /usr/local/lib/libre2.a -lpcre 
